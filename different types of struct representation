@@ -1,0 +1,10 @@
+
+//first method//
+idToHotel[count] = Hotel({
+            hotelId : hotelDetails.hotelId,
+            hotelUri : hotelDetails.hotelUri,
+            hotelManager : hotelDetails.hotelManager,
+            hotelTreasury : hotelDetails.hotelTreasury,
+            index : count
+        });
+        
