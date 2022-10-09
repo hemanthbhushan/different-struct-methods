@@ -8,3 +8,13 @@ idToHotel[count] = Hotel({
             index : count
         });
         
+        
+ //second method
+ struct Hotel{
+        string hotelName; 
+        address hotelAddress; 
+        address hotelDeposit; 
+        uint256 hotelId; 
+    }
+   Hotel memory registered = Hotel(hotelName,msg.sender,hotelDeposit,Id);      
+        
