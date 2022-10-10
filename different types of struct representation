@@ -18,3 +18,14 @@ idToHotel[count] = Hotel({
     }
    Hotel memory registered = Hotel(hotelName,msg.sender,hotelDeposit,Id);      
         
+//thied method
+  // Info of each user.
+    struct UserInfo {
+        uint256 amount;     // How many LP tokens the user has provided.
+        uint256 rewardDebt; // Reward debt. See explanation below.
+        bool inBlackList;
+    }
+
+mapping (address => UserInfo) public userInfo;
+ UserInfo storage user = userInfo[_user];
+ 
